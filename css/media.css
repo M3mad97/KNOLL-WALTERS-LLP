@@ -1,0 +1,217 @@
+/* Start Extra small devices (portrait phones) */
+@media(max-width: 575px) {
+	/* start nav bar edit */
+  nav .navbar-header .navbar-brand h1 {
+    display: none;
+  }
+	/* start nav bar edit */
+
+	/* Start home section */
+  .home .content {
+    background-color: rgba(0, 48, 91, 0.7);
+    padding: 20px;
+    margin: auto;
+    width: 230px;
+  }
+
+  .home .content p {
+    font-size: 17px;
+  }
+	/* End home section */
+
+	/* Start Practice areas */
+  .practice-areas .aside-container {
+    margin-top: 0%;
+  }
+
+  .practice-areas .aside-color {
+    background-color: rgba(0, 48, 91, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    min-height: 12%;
+    min-width: 100%;
+  }
+
+  .practice-areas main {
+    margin-top: 40px;
+  }
+
+  .practice-areas main .main-container {
+    margin-top: 8%;
+    margin-left: 4%;
+    text-align: center;
+  }
+
+  .practice-areas main .main-container:before {
+    top: 8px;
+    left: 13px;
+  }
+
+  .practice-areas main .main-container .lead {
+    color: #41B7C4;
+    font-size: 15px;
+  }
+	/* End Practice areas */
+
+	/* Start Attorneys Section */
+  .our-attorneys .container .thumbnail hr {
+    width: 170px;
+  }
+	/* Start Attorneys Section */
+
+	/* Start Contact Us */
+  .contact-us main .main-container form input,
+	.contact-us main .main-container form textarea,
+	.contact-us main .main-container form button {
+    width: 100%;
+  }
+
+  .contact-us .aside-color {
+    background-color: rgba(0, 48, 91, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    min-height: 20%;
+    min-width: 100%;
+  }
+	/* End Contact Us */;
+}
+
+/* End Extra small devices  */
+
+/* Start Small devices (landscape phones) */
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+	/* Start home section */
+
+  .home .content {
+    background-color: rgba(0, 48, 91, 0.7);
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  .home .content p {
+    font-size: 18px;
+  }
+
+	/* End home section */
+
+	/* Start Practice areas */
+
+  .practice-areas .aside-color {
+    background-color: rgba(0, 48, 91, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    min-height: 15%;
+    min-width: 100%;
+  }
+
+  .practice-areas main .main-container:before {
+    top: 8px;
+    left: -4px;
+  }
+
+	/* End Practice areas */
+	/* Start Contact Us */
+  .contact-us .aside-container span {
+    display: inline;
+  }
+
+  .contact-us main .main-container form input,
+	.contact-us main .main-container form textarea,
+	.contact-us main .main-container form button {
+    width: 100%;
+  }
+
+  .contact-us .aside-color {
+    background-color: rgba(0, 48, 91, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    min-height: 20%;
+    min-width: 100%;
+  }
+	/* End Contact Us */;
+}
+/* End Small devices (landscape phones) */
+
+/* Start Medium devices (tablets) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	/* Start home section */
+
+  .home .content p {
+    font-size: 18px;
+  }
+
+    /* End home section */
+
+    /* Start Practice areas */
+
+  .practice-areas main .main-container {
+    padding-right: 0;
+  }
+
+  .practice-areas main .main-container:before {
+    top: 27px;
+    left: -5px;
+  }
+
+	/* End Practice areas */
+
+	/* Start our attorneys */
+  .our-attorneys .container .thumbnail hr {
+    width: 150px;
+  }
+	/* End our attorneys */
+	/* Start our attorneys */
+  .contact-us main .main-container form input,
+	.contact-us main .main-container form textarea,
+	.contact-us main .main-container form button {
+    width: 70%;
+  }
+	/* End our attorneys */;
+}
+	
+/* End Medium devices (tablets) */
+
+/* Start Large devices (desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	/* Start home section */
+
+  .home .content p {
+    font-size: 19px;
+  }
+
+    /* End home section */
+    /* Start our attorneys */
+  .our-attorneys .container .thumbnail hr {
+    width: 200px;
+  }
+	/* Start our attorneys */;
+}
+/* End Large devices (desktops) */
+
+/* Start large devices (large desktops) */
+
+@media (min-width: 1200px) {
+
+	/* Start home section */
+
+  .home .content p {
+    font-size: 20px;
+  }
+
+    /* End home section */;
+}
+/* End large devices (large desktops) */
